@@ -1,5 +1,6 @@
 class StuffsController < ApplicationController
   before_action :set_stuff, only: [:show, :edit, :update, :destroy]
+  force_ssl
 
   # GET /stuffs
   # GET /stuffs.json
